@@ -9,7 +9,7 @@ import datetime
 sequence = 7
 inputD = 1 # input dimension
 outD = 1 # output dimension
-#CODE BY SONG
+
 def Normalized(data): # normalize data in each column
 
     numerator = data - np.min(data, 0)
